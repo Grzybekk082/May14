@@ -1,0 +1,136 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    width: 1400px !important;
+    height: 2000px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.nav
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.logo
+{
+    width: 40%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: 500;
+    text-shadow: 3px 3px 17px;
+}
+
+.option
+{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.op
+{
+    width: calc(100%/6);
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 3PX;
+    padding: 7px;
+}
+
+.op:hover
+{
+    background-color: rgba(150, 150, 150, 0.089);
+}
+
+.head
+{
+    display: ;
+    width: 100%;
+    height: 35%;
+    background-image: url('pic/il_fullxfull.3889837707_ipxe.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -50px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 35%;
+    
+}
+
+.intro
+{
+    position:absolute ;
+    display: flex;
+    top: calc(100%/3);
+    width: 35%;
+    padding: 90px;
+    background-color: rgba(24, 24, 24, 0.555);
+    margin-left: 20px;
+    border-radius: 4px;
+    color: aliceblue;
+    flex-direction: column;
+    
+
+
+}
+
+h1{
+    font-size: 35px;
+    letter-spacing: 6px;
+}
+#intro-p
+{
+    max-width: 350px;
+    font-weight: 300;
+    font-size: 19px;
+    font-family: Raleway;
+}
+.intro>input[type="submit"]
+ {
+    height: 60px;
+    width: 30%;
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 3px;
+ }
+
+ .quote
+ {
+    width: 100%;
+    height: 350px;
+    background-color:rgba(211, 211, 211, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+
+ .quote>p
+ {
+    padding: 0px 300px;
+    
+ }
+
+ .quote>img
+ {
+    width:20%;
+ }
