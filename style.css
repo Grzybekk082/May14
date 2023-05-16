@@ -41,7 +41,7 @@ body
     padding-right: 20px;
 }
 
-.op, .op-roll
+.op
 {
     width: calc(100%/6);
     height: 70%;
@@ -51,48 +51,74 @@ body
     border-radius: 4px;
     margin: 3PX;
     padding: 7px;
-    position: relative;
+    text-decoration: none;
+    color: black;
 }
 
+.op-roll
+{
+   
+    width: calc(100%/6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 3PX;
+    position: relative;
+    text-decoration: none;
+    color: black;
+
+}
 
 .rolled
 {
-   height: 200px;
+   height: 0px;
    position: absolute;
-   top: 76px;
-   left:-45px;
-   display: none;
+   z-index: 1;
+   top: 79px;
    background-color:rgba(41, 41, 41, 0.658) ;
    width: 160px;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   padding: 20px 0;
    color: aliceblue;
    border-bottom-left-radius: 4px;
    border-bottom-right-radius: 4px;
+   overflow: hidden;
 }
+
+
 
 .roll
 {
    display: flex;
-   display: none;
    width: 100%;
    height: 70%;
    align-items: center;
    justify-content: center;
    margin:3px 0;
+   color: aliceblue;
+    text-decoration: none;
+    
 }
 
-.op-roll>a:focus + .rolled, .roll
+.op-roll:focus + .rolled
 {
-   
-   
-  display: block;
-   
+ height: 200px;
+ padding: 20px 0;
 }
 
+.rolled:active + .roll
+{
+   display: flex;
+   width: 100%;
+   height: 70%;
+   align-items: center;
+   justify-content: center;
+   margin:3px 0;
+   color: aliceblue;
+}
 
 
 .roll:hover
