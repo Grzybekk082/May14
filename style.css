@@ -72,10 +72,10 @@ body
 
 .rolled
 {
-   height: 0px;
+   height: 200px;
    position: absolute;
-   z-index: 1;
    top: 79px;
+   z-index: 1;
    background-color:rgba(41, 41, 41, 0.658) ;
    width: 160px;
    display: flex;
@@ -85,9 +85,8 @@ body
    color: aliceblue;
    border-bottom-left-radius: 4px;
    border-bottom-right-radius: 4px;
-   overflow: hidden;
+  display: none;
 }
-
 
 
 .roll
@@ -103,21 +102,16 @@ body
     
 }
 
+.op-roll:focus + .roll
+{
+z-index: 3;
+}
+
 .op-roll:focus + .rolled
 {
  height: 200px;
  padding: 20px 0;
-}
-
-.rolled:active + .roll
-{
-   display: flex;
-   width: 100%;
-   height: 70%;
-   align-items: center;
-   justify-content: center;
-   margin:3px 0;
-   color: aliceblue;
+ display:flex ;
 }
 
 
