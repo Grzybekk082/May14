@@ -395,12 +395,12 @@ background-color: rgb(59, 59, 59);
 }
 .mini
 {
-display: flex;
-width: 100%;
-padding: 30px 0 30px 0;
-justify-content: center;
-align-items: center;
-padding: 0 40px 30px 40px;
+   display: flex;
+   width: 100%;
+   padding: 30px 0 30px 0;
+   justify-content: center;
+   align-items: center;
+   padding: 0 40px 30px 40px;
 
 }
 
@@ -427,4 +427,33 @@ padding: 0 40px 30px 40px;
 {
    padding: 0 2% 0 2% ;
    text-align: center;
+}
+
+.main-el
+{
+   width: 100%;
+   padding: 200px 0 300px 0;
+   display: flex;
+   position:relative;
+}
+
+.shadow-2
+{
+   width: 70%;
+   height: 60%;
+   bottom: 25%;
+   background-color: rgb(63, 63, 63, 0.527);
+   z-index:-1;
+   position: absolute;
+   right: 0%;
+}
+
+.main-el span
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 3%;
+   background-color: aliceblue;
+   
 }
