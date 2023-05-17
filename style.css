@@ -440,8 +440,8 @@ background-color: rgb(59, 59, 59);
 .shadow-2
 {
    width: 70%;
-   height: 60%;
-   bottom: 25%;
+   height: 68%;
+   top: 8%;
    background-color: rgb(63, 63, 63, 0.527);
    z-index:-1;
    position: absolute;
@@ -456,4 +456,10 @@ background-color: rgb(59, 59, 59);
    padding: 3%;
    background-color: aliceblue;
    
+}
+
+.elements-ideas
+{
+   text-align: center;
+   padding: 0 15% 14% 15%;
 }
