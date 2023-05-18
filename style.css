@@ -481,3 +481,26 @@ background-color: rgb(59, 59, 59);
    background-color:rgba(63, 63, 63, 0.527);
    z-index: -1;
 }
+
+.last-h1
+{
+   position: absolute;
+   top:13%;
+   left: 67%;
+   
+}
+
+.last-h1-2
+{
+   position: absolute;
+   left: 20%;
+   top: 62%;
+}
+
+.elements-last p
+{
+   max-width: 40%;
+   position: relative;
+   text-align: center;
+   left: 15%;
+}
