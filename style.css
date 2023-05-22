@@ -555,9 +555,47 @@ box-shadow: 45px  25px  rgb(136, 136, 136) ;
 
 /* <<-----------------Portfolio------------------>> */
 
+
+.dropp
+{
+   display: flex;
+   justify-content: space-around;
+   height: 100%;
+   padding: 3% 0;
+}
+
 .box-top
 {
    width: 20%;
-   height: 40%;
-   background-color: red;
+   height:8% ;
+   background-color: rgb(235, 235, 235);
+   text-align: center;
+   position: relative;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.dropp-1
+{
+   display: none;
+   height: 100%;
+   padding: 3% 3% 0 3%;
+   background-color: rgb(184, 184, 184);
+}
+
+.dropp-1 p
+{
+   font-size: 100%;
+}
+
+
+.box-top:hover 
+{
+   height: 30%;
+}
+
+.box-top:hover > .dropp-1
+{
+   display: block;
 }
